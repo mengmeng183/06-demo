@@ -26,4 +26,22 @@ p标签：dkldldldldddddd直接写是p标签
 
 - b
 
-  
+超链接(快捷键L)
+
+[百度](http://www.baidu.com)  
+
+图片(快捷键img)
+
+![alt](E:\Pictures\图片\背景图片\6015111_083659188325_2.jpg)
+
+分割线
+
+***
+
+代码块(快捷键C,js为语法类型)
+
+```js
+    console.log('aaa');
+```
+
+我现在在学习`react`,(``里面的内容突出显示)

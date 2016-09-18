@@ -9,7 +9,7 @@ function searchGit(userName){
       alert(error);
     });
 }
-export {searchGit}
+
 
 
 function getCardData(userName){
@@ -22,4 +22,16 @@ function getCardData(userName){
       alert(error);
     });
 }
-export {getCardData}
+
+function getMd(add){
+  let address = `https://raw.githubusercontent.com/mengmeng183/06-demo/master/src/blog/${add}.md`
+  return axios.get(address)
+    .then((res) => (
+      { getMd:res.data }
+    ))
+    .catch(function (error) {
+      alert(error);
+    });
+}
+
+export { searchGit,getCardData,getMd }
